@@ -87,4 +87,3 @@ class Television:
         power_status = "True" if self.__status else "False"
         volume_status = Television.MIN_VOLUME if self.__muted else self.__volume
         return f'Power = {power_status}, Channel = {self.__channel}, Volume = {volume_status}'
-
